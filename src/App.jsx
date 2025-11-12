@@ -23,7 +23,7 @@ function readPayload(data) {
 }
 
 export default function App() {
-  const [rollInput, setRollInput] = useState("101");
+  const [rollInput, setRollInput] = useState("");
   const [generatedFor, setGeneratedFor] = useState(null);
   const [attendance, setAttendance] = useState(() => {
     try {
